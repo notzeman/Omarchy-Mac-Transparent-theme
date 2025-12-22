@@ -1,4 +1,4 @@
-# Mercury Theme
+# Transparent Theme
 
 ---
 
@@ -10,6 +10,13 @@ omarchy-theme-install https://github.com/zamanlof/Omarchy-Mercury-theme.git
 
 ## Screenshots
 
-![Mercury 1](https://github.com/zamanlof/Omarchy-Mercury-theme/blob/main/Screenshots/home.png)
+![term](https://github.com/zamanlof/Omarchy-Mercury-theme/blob/main/Screenshots/s1.png)
+![term](https://github.com/zamanlof/Omarchy-Mercury-theme/blob/main/Screenshots/s2.png)
+![term](https://github.com/zamanlof/Omarchy-Mercury-theme/blob/main/Screenshots/s3.png)
 
-need to make a lot of updates here so dont use this yet
+## Added cava waybar visualizer
+
+move it to
+```bash
+~/.config/
+```
