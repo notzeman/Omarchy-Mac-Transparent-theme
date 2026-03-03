@@ -39,7 +39,11 @@ mpris.empty {
   opacity: 0.5;
 }
 
-#backlight, #custom-weather, #memory, #mpris, #window,
+#backlight,
+#custom-weather,
+#memory,
+#mpris,
+#window,
 #tray,
 #cpu,
 #battery,
@@ -49,7 +53,8 @@ mpris.empty {
 #custom-omarchy,
 #custom-visualizer,
 #custom-screenrecording-indicator,
-#custom-update {
+#custom-update,
+#custom-a-la-carchy {
   background-color: @background;
   min-width: 12px;
 
@@ -62,7 +67,11 @@ mpris.empty {
   margin-right: 7px;
 }
 
-#custom-weather{
+#custom-weather {
+  margin-right: 5px;
+}
+
+#custom-a-la-carchy {
   margin-right: 5px;
 }
 
@@ -126,6 +135,14 @@ tooltip {
   padding: 0 13 0 9;
 }
 
-tooltip {
-  border-radius: 10px;
+#pulseaudio.muted {
+  color: #bf616a;
+}
+
+#bluetooth.disabled {
+  color: #bf616a;
+}
+
+#network.disconnected {
+  color: #bf616a;
 }

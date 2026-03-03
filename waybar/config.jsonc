@@ -20,6 +20,7 @@
   ],
   "modules-right": [
     "mpris",
+    "custom/a-la-carchy",
     "group/tray-expander",
     "backlight",
     "network#icon",
@@ -63,7 +64,7 @@
     "format": "{}°",
     "tooltip": true,
     "interval": 600,
-    "exec": "wttrbar --location Tokyo --nerd", // Change it to your location here 
+    "exec": "wttrbar --location Malappuram --nerd", // Change it to your location here 
     "return-type": "json"
   },
   "custom/update": {
@@ -77,7 +78,7 @@
   "cpu": {
     "interval": 5,
     "format": "󰍛",
-    "on-click": "$TERMINAL -e sudo btop"
+    "on-click": "omarchy-launch-floating-terminal-with-presentation sudo btop"
   },
   "clock": {
     "format": "{:%I:%M %p}",
@@ -183,11 +184,11 @@
     "tooltip": true,
     "tooltip-format": "~/.config/waybar/scripts/bt-info.sh",
     "tooltip-interval": 5,
-    "on-click": "ghostty -e bluetui",
+    "on-click": "omarchy-launch-floating-terminal-with-presentation bluetui"
   },
   "pulseaudio": {
     "format": "{icon}",
-    "on-click": "$TERMINAL --class=Wiremix -e wiremix",
+    "on-click": "omarchy-launch-floating-terminal-with-presentation wiremix",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
@@ -211,6 +212,11 @@
       "tray",
       "memory"
     ]
+  },
+  "custom/a-la-carchy": {
+    "format": " ",
+    "on-click": "omarchy-launch-floating-terminal-with-presentation ~/a-la-carchy.sh",
+    "tooltip": "Launch a-la-carchy TUI"
   },
   "custom/expand-icon": {
     "format": " ",
