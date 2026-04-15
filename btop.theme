@@ -1,40 +1,73 @@
-theme[main_bg]=""
-theme[main_fg]="#f8f8fa"
-theme[inactive_fg]="#505258"
+# Main background (keep for muted look)
+theme[main_bg]="#232529"
 
-theme[title]="#7ca5ff"
-theme[hi_fg]="#7ca5ff"
-theme[selected_bg]="#b2c3ff"
-theme[selected_fg]="#2b2d31"
+# Main text color
+theme[main_fg]="#d6dcd9"
 
-theme[graph_text]="#f8f8fa"
-theme[proc_misc]="#f8f8fa"
+# Title color for boxes (muted rose-grey)
+theme[title]="#b8a8b0"
 
-theme[cpu_box]="#8edb73"
-theme[mem_box]="#7ca5ff"
-theme[net_box]="#7dd8d3"
-theme[proc_box]="#e29ef3"
-theme[div_line]="#505258"
+# Highlight color (soft teal-muted)
+theme[hi_fg]="#7ea4aa"
 
-theme[temp_start]="#7ca5ff"
-theme[temp_mid]="#f7c553"
-theme[temp_end]="#ef5d67"
+# Selected process background (muted steel)
+theme[selected_bg]="#5f6772"
 
-theme[cpu_start]="#8edb73"
-theme[cpu_mid]="#f7c553"
-theme[cpu_end]="#ff7680"
+# Selected foreground
+theme[selected_fg]="#d6dcd9"
 
-theme[mem_start]="#7ca5ff"
-theme[mem_mid]="#97b6ff"
-theme[mem_end]="#e29ef3"
+# Inactive text
+theme[inactive_fg]="#6d727a"
 
-theme[net_start]="#7dd8d3"
-theme[net_mid]="#7ca5ff"
-theme[net_end]="#8edb73"
+# Process misc (titles, graph text)
+theme[proc_misc]="#b8a8b0"
 
-theme[proc_start]="#e29ef3"
-theme[proc_mid]="#efb5f9"
-theme[proc_end]="#97b6ff"
+# Box outlines — muted dusty green-grey
+theme[cpu_box]="#8f9a95"
+theme[mem_box]="#8f9a95"
+theme[net_box]="#8f9a95"
+theme[proc_box]="#8f9a95"
 
-theme[btm_bg]="#32343a"
-theme[btm_fg]="#f8f8fa"
+theme[div_line]="#6d727a"
+
+# ---------------- GRADIENTS ---------------- #
+
+# Temp — muted aqua → greyblue → sage
+theme[temp_start]="#7ea4aa"
+theme[temp_mid]="#7f8ea0"
+theme[temp_end]="#8f9a95"
+
+# CPU — same muted spectrum for consistency
+theme[cpu_start]="#7ea4aa"
+theme[cpu_mid]="#7f8ea0"
+theme[cpu_end]="#8f9a95"
+
+# Free memory — cooler + desaturated
+theme[free_start]="#7f8ea0"
+theme[free_mid]="#a7a89a"
+theme[free_end]="#a7a89a"
+
+# Cached — ultra-muted beige-grey
+theme[cached_start]="#a7a89a"
+theme[cached_mid]="#a7a89a"
+theme[cached_end]="#a7a89a"
+
+# Available — unified muted aqua
+theme[available_start]="#7ea4aa"
+theme[available_mid]="#7ea4aa"
+theme[available_end]="#7ea4aa"
+
+# Used — muted sage-grey
+theme[used_start]="#8f9a95"
+theme[used_mid]="#8f9a95"
+theme[used_end]="#8f9a95"
+
+# Download — beige-grey → aqua → steel blue
+theme[download_start]="#a7a89a"
+theme[download_mid]="#7ea4aa"
+theme[download_end]="#7f8ea0"
+
+# Upload — same gradient for symmetry
+theme[upload_start]="#a7a89a"
+theme[upload_mid]="#7ea4aa"
+theme[upload_end]="#7f8ea0"
